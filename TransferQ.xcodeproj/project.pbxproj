@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9FC5F0051B3C9CEF00B044A6 /* TransferQ.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FC5F0041B3C9CEF00B044A6 /* TransferQ.h */; };
+		9FC5F0071B3C9CEF00B044A6 /* TransferQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5F0061B3C9CEF00B044A6 /* TransferQ.m */; };
+		9FC5F00D1B3C9CEF00B044A6 /* libTransferQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC5F0011B3C9CEF00B044A6 /* libTransferQ.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9FC5F00E1B3C9CEF00B044A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FC5EFF91B3C9CEF00B044A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9FC5F0001B3C9CEF00B044A6;
+			remoteInfo = TransferQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9FC5EFFF1B3C9CEF00B044A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				9FC5F0051B3C9CEF00B044A6 /* TransferQ.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9FC5F0011B3C9CEF00B044A6 /* libTransferQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTransferQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5F0041B3C9CEF00B044A6 /* TransferQ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransferQ.h; sourceTree = "<group>"; };
+		9FC5F0061B3C9CEF00B044A6 /* TransferQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferQ.m; sourceTree = "<group>"; };
+		9FC5F00C1B3C9CEF00B044A6 /* TransferQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC5F0121B3C9CEF00B044A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FC5EFFE1B3C9CEF00B044A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5F0091B3C9CEF00B044A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5F00D1B3C9CEF00B044A6 /* libTransferQ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FC5EFF81B3C9CEF00B044A6 = {
+			isa = PBXGroup;
+			children = (
+				9FC5F0031B3C9CEF00B044A6 /* TransferQ */,
+				9FC5F0101B3C9CEF00B044A6 /* TransferQTests */,
+				9FC5F0021B3C9CEF00B044A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FC5F0021B3C9CEF00B044A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5F0011B3C9CEF00B044A6 /* libTransferQ.a */,
+				9FC5F00C1B3C9CEF00B044A6 /* TransferQTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FC5F0031B3C9CEF00B044A6 /* TransferQ */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5F0041B3C9CEF00B044A6 /* TransferQ.h */,
+				9FC5F0061B3C9CEF00B044A6 /* TransferQ.m */,
+			);
+			path = TransferQ;
+			sourceTree = "<group>";
+		};
+		9FC5F0101B3C9CEF00B044A6 /* TransferQTests */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5F0111B3C9CEF00B044A6 /* Supporting Files */,
+			);
+			path = TransferQTests;
+			sourceTree = "<group>";
+		};
+		9FC5F0111B3C9CEF00B044A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9FC5F0121B3C9CEF00B044A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FC5F0001B3C9CEF00B044A6 /* TransferQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5F0151B3C9CEF00B044A6 /* Build configuration list for PBXNativeTarget "TransferQ" */;
+			buildPhases = (
+				9FC5EFFD1B3C9CEF00B044A6 /* Sources */,
+				9FC5EFFE1B3C9CEF00B044A6 /* Frameworks */,
+				9FC5EFFF1B3C9CEF00B044A6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransferQ;
+			productName = TransferQ;
+			productReference = 9FC5F0011B3C9CEF00B044A6 /* libTransferQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9FC5F00B1B3C9CEF00B044A6 /* TransferQTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC5F0181B3C9CEF00B044A6 /* Build configuration list for PBXNativeTarget "TransferQTests" */;
+			buildPhases = (
+				9FC5F0081B3C9CEF00B044A6 /* Sources */,
+				9FC5F0091B3C9CEF00B044A6 /* Frameworks */,
+				9FC5F00A1B3C9CEF00B044A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FC5F00F1B3C9CEF00B044A6 /* PBXTargetDependency */,
+			);
+			name = TransferQTests;
+			productName = TransferQTests;
+			productReference = 9FC5F00C1B3C9CEF00B044A6 /* TransferQTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FC5EFF91B3C9CEF00B044A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Home Spotter";
+				TargetAttributes = {
+					9FC5F0001B3C9CEF00B044A6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9FC5F00B1B3C9CEF00B044A6 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 9FC5EFFC1B3C9CEF00B044A6 /* Build configuration list for PBXProject "TransferQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9FC5EFF81B3C9CEF00B044A6;
+			productRefGroup = 9FC5F0021B3C9CEF00B044A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FC5F0001B3C9CEF00B044A6 /* TransferQ */,
+				9FC5F00B1B3C9CEF00B044A6 /* TransferQTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FC5F00A1B3C9CEF00B044A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FC5EFFD1B3C9CEF00B044A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FC5F0071B3C9CEF00B044A6 /* TransferQ.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC5F0081B3C9CEF00B044A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9FC5F00F1B3C9CEF00B044A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9FC5F0001B3C9CEF00B044A6 /* TransferQ */;
+			targetProxy = 9FC5F00E1B3C9CEF00B044A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9FC5F0131B3C9CEF00B044A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9FC5F0141B3C9CEF00B044A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FC5F0161B3C9CEF00B044A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9FC5F0171B3C9CEF00B044A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9FC5F0191B3C9CEF00B044A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransferQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9FC5F01A1B3C9CEF00B044A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransferQTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FC5EFFC1B3C9CEF00B044A6 /* Build configuration list for PBXProject "TransferQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5F0131B3C9CEF00B044A6 /* Debug */,
+				9FC5F0141B3C9CEF00B044A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC5F0151B3C9CEF00B044A6 /* Build configuration list for PBXNativeTarget "TransferQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5F0161B3C9CEF00B044A6 /* Debug */,
+				9FC5F0171B3C9CEF00B044A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9FC5F0181B3C9CEF00B044A6 /* Build configuration list for PBXNativeTarget "TransferQTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FC5F0191B3C9CEF00B044A6 /* Debug */,
+				9FC5F01A1B3C9CEF00B044A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9FC5EFF91B3C9CEF00B044A6 /* Project object */;
+}
