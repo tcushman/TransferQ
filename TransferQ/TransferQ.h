@@ -8,6 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TransferQ : NSObject
+@interface TransferQ : NSObject {
+@private
+    dispatch_semaphore_t offerSem;
+    dispatch_semaphore_t takeSem;
+    volatile id v;
+}
+
+- (TransferQ *)init;
+
+- (BOOL)offer:(id)value timeout:(int64_t)timeout;
+
+- (id)take:(int64_t)timeout;
+
+- (id)take:(int64_t)timeout onTimeout:(id)timedOutValue;
 
 @end

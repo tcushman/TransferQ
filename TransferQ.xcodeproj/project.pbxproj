@@ -10,6 +10,7 @@
 		9FC5F0051B3C9CEF00B044A6 /* TransferQ.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9FC5F0041B3C9CEF00B044A6 /* TransferQ.h */; };
 		9FC5F0071B3C9CEF00B044A6 /* TransferQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5F0061B3C9CEF00B044A6 /* TransferQ.m */; };
 		9FC5F00D1B3C9CEF00B044A6 /* libTransferQ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC5F0011B3C9CEF00B044A6 /* libTransferQ.a */; };
+		9FC5F01C1B3CE85B00B044A6 /* TestTransferQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC5F01B1B3CE85B00B044A6 /* TestTransferQ.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		9FC5F0061B3C9CEF00B044A6 /* TransferQ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferQ.m; sourceTree = "<group>"; };
 		9FC5F00C1B3C9CEF00B044A6 /* TransferQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FC5F0121B3C9CEF00B044A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC5F01B1B3CE85B00B044A6 /* TestTransferQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTransferQ.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		9FC5EFF81B3C9CEF00B044A6 = {
 			isa = PBXGroup;
 			children = (
+				9FC5F01B1B3CE85B00B044A6 /* TestTransferQ.m */,
 				9FC5F0031B3C9CEF00B044A6 /* TransferQ */,
 				9FC5F0101B3C9CEF00B044A6 /* TransferQTests */,
 				9FC5F0021B3C9CEF00B044A6 /* Products */,
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC5F01C1B3CE85B00B044A6 /* TestTransferQ.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +366,7 @@
 				9FC5F0171B3C9CEF00B044A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9FC5F0181B3C9CEF00B044A6 /* Build configuration list for PBXNativeTarget "TransferQTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +375,7 @@
 				9FC5F01A1B3C9CEF00B044A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
